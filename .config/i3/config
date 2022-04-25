@@ -92,12 +92,8 @@ bindsym $mod+Control+Right move workspace to output right
 ### Custom binding conf ###
 ###########################
 #Rofi
-bindsym $alt+F2 exec --no-startup-id rofi -show drun -modi drun -theme drun
-bindsym $mod+Shift+s exec --no-startup-id rofi -show ssh -modi ssh -theme run
+bindsym $mod+d exec --no-startup-id rofi -show drun -modi drun -theme drun
 bindsym $mod+Tab exec --no-startup-id rofi -show window -modi window -theme sidebar
-bindsym $mod+Shift+d exec --no-startup-id rofi -show run -modi run -theme run
-
-
 
 for_window [class="KeePassXC"] floating enable, resize set 800 600, move position center
 
